@@ -12,6 +12,7 @@ bot.on('start', () => {
     const params = {
         icon_emoji: ':robot_face:'
     }
+    //private channel bot IF you want to send to a different channel change this
     bot.postMessageToGroup('bot', 'Get inspired while working with @BeryBot', params);
 })
 
